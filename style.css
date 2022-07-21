@@ -25,7 +25,7 @@ main {
 
 /* The hero image 1*/
 .hero-image1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/classroom.webp");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("classroom.webp");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -43,7 +43,7 @@ main {
 }
 
 .hero-image2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/achievementgap.webp");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("achievementgap.webp");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
