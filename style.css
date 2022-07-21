@@ -1,0 +1,224 @@
+body, html {
+    height: 100%;
+}
+
+
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+header {
+  background-color: #f7f3f3;
+  padding:40px;
+}
+
+nav {
+  text-align: right;
+  font-family:'Work Sans', sans-serif;
+}
+
+main {
+  background-color: #f7f3f3;
+}
+
+/* The hero image 1*/
+.hero-image1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/classroom.webp");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text1 {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-image2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/achievementgap.webp");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text2 {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: #ff387a;
+  text-align:center;
+  font-size:2.5em;
+  font-family:'Work Sans', sans-serif;
+}
+
+h2{
+  color: #9999C3;
+  font-family: 'Work Sans', sans-serif;
+  font-size:2em;
+  padding-bottom:20px;
+}
+
+h3 {
+  color: #240115;
+  font-family:'Work Sans', sans-serif;
+/*   text-align:center; */
+}
+
+.link {
+  font-size:1.1em;
+}
+
+.space {
+  padding-bottom: 20px;
+}
+
+#instructions {
+  padding-bottom: 20px;
+  text-align:center;
+  color:#22a4aa;
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.resources {
+  padding-left: 40px;
+}
+
+p {
+  color: #ff387a;
+  font-size:1.2em;
+  font-family:'Work Sans', sans-serif;
+}
+
+.topText {
+  text-align: center;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+.blurb {
+  color: #7B8CDE;
+  text-align:center;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+
+.answer {
+  color: #7B8CDE;
+  font-family: 'Work Sans', sans-serif;
+}
+
+
+/* STYLE IMAGES */
+.imageRow{
+  text-align:center;
+  padding-top:40px;
+}
+
+
+/* STYLE NAV BAR */
+ul {
+list-style-type: none;
+background-color: #22a4aa;
+overflow: hidden;
+padding: 1em;
+}
+
+li {
+display: inline;
+}
+
+li a {
+  text-decoration:none;
+  color:#f7f3f3;
+  font-size: 1.3em;
+  padding: 1em;
+  font-family:'Work Sans', sans-serif;
+}
+
+li a:hover {
+  background-color:#ff387a;
+  color: #f7f3f3;
+}
+
+
+/* STYLE BUTTONS */
+#scriptBtn {
+  background: #22a4aa;
+  border-style: none;
+  border-radius: 10px;
+
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-left: 35%;
+  margin-right: 35%;
+
+  color: #f7f3f3;
+  font-size: 1em;
+  font-family: 'Work Sans', sans-serif;
+  text-align:center;
+}
+
+/* ADD MORE! */
+
+/*This part styles the key feature */
+.scriptQues {
+  background: #ff387a;
+  border-radius: 10px;
+
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+
+  font-family: 'Work Sans', sans-serif;
+  font-size: 0.9em;
+  color: #f7f3f3;
+}
+
+.scriptItem{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  margin-right: 10px;
+
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+input {
+  border-style: none;
+  border-radius: 5px;
+  width: 60%;
+}
+
+#scriptReturned {
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+
+  color: #22a4aa;
+}
