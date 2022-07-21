@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Take Action</title>
+    <meta charset="utf-8" />
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+
+	  <!-- link the webpage's stylesheet -->
+	  <link rel="stylesheet" href="/style.css" />
+
+	  <!-- link the webpage's JavaScript file -->
+	  <script src="/script.js" defer></script>
+
+  </head>
+  
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="takeAction.html">Take Action</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1>Take Action</h1>
+    </header>
+    
+    <main>
+      
+<!--Resources and links -->
+      <div class="resources">
+      <h2>Resources:</h2>
+      <h3 class="space">Use these links to learn more about this issue, and be sure to share with others so they can learn too.</h3>
+        <p class="link"><a href = "https://soeonline.american.edu/blog/inequality-in-public-school-funding">Inequality in Public School Funding: Key Issues & Solutions for Closing the Gap</a> -American University School of Education</p>
+        <p class="link"><a href = "https://oaklandside.org/2022/01/12/oakland-schools-are-facing-50m-in-cuts-here-are-some-budget-basics/">Oakland schools are facing $50M in cuts. Here are some budget basics</a> -The Oaklandside</p>
+        <p class="link"><a href = "https://www.edweek.org/leadership/achievement-gap/2004/09">Achievement Gap</a>- Education Week</p>
+      </div>
+
+      <br>
+      <br>
+      
+      <h3 id="instructions">Click here and fill out the inputs to generate an email template to send to your representative. Help be the change and lessen the educational achievement gap.</h3>
+
+<!--This part is the key feature -->
+    <div class="scriptQues">
+      <div class="scriptItem">
+        <label for="yourName">Your name: </label>
+        <input type="text" id="name" >
+      </div>
+
+      <div class="scriptItem">
+        <label for="yourLocation">Your city or state: </label>
+        <input type="text" id="location" >
+      </div>
+
+      <div class="scriptItem">
+        <label for="yourLearning">Share a few reasons why you think closing the gap is important: </label>
+        <br/>
+        <input type="text" id="learning" >
+      </div>
+
+      <button id="scriptBtn">Generate your script</button>
+
+    </div>
+
+    <br/>
+
+		<p id="scriptReturned"> 
+		</p>
+    <br/>
+    
+    </main>
+
+
+    
+  </body>
+</html>
